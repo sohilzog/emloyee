@@ -1,0 +1,65 @@
+/* Home.css */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif; /* Choose your preferred font */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  .table td {
+    text-align: center;
+  }
+  
+  .table-bordered {
+    border: 2px solid #007bff;
+  }
+  
+  .table-st {
+    border-collapse: collapse;
+  }
+  
+  .table td, .table th {
+    padding: 12px;
+    border: 1px solid #dee2e6; /* Light border for better readability */
+  }
+  
+  .table th {
+    font-size: 16px;
+  }
+  
+  .table td {
+    font-size: 14px;
+  }
+  
+  .table a {
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #28a745;
+  }
+  
+  .table a:hover {
+    background-color: #218838; /* Hover effect for links */
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: #888;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  

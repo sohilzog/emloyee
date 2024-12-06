@@ -1,0 +1,81 @@
+/* FormList.css */
+.form-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-card {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .form-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .fields-list {
+    margin-top: 10px;
+  }
+  
+  .fields-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .fields-list li {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  
+  .fields-list strong {
+    font-weight: 600;
+  }
+  
+  .fields-list li {
+    padding-left: 10px;
+    color: #555;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 10px;
+    }
+  
+    .form-card {
+      padding: 15px;
+    }
+  }
+  
